@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfContact"
         mc:Ignorable="d"
-        Title="Contact Book Tesy" Height="450" Width="800">
-    <Grid>
+        Title="Contact Book Tesy" Height="600" Width="1000">
+    <DockPanel>
+        <!--Toolbar-->
+        <Grid DockPanel.Dock="Top" Height="40" Background="{StaticResource BluTesy}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Button Content="Contatti" Style="{StaticResource MenuTabButton}"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Button Content="Favoriti" Style="{StaticResource MenuTabButton}"/>
+            </Grid>
+
+            <StackPanel Grid.Column="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Style="{StaticResource MenuIconButton}" >
+                    <Button.Content>
+                        <Image Height="32" Width="32" Source="pack://siteoforigin:,,,/Resources/IconAdd24.png" Stretch="None" />
+                    </Button.Content>
+                </Button>
+                <Button Style="{StaticResource MenuIconButton}" >
+                    <Button.Content>
+                        <Image Height="32" Width="32" Source="pack://siteoforigin:,,,/Resources/IconDel24.png" Stretch="None" />
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+            
+        </Grid>
+        <!--Content-->
+        <Grid DockPanel.Dock="Bottom">
+            <ContentControl Content="" />
+
+        </Grid>
         
-    </Grid>
+    </DockPanel>
 </Window>

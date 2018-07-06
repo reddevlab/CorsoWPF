@@ -61,6 +61,16 @@ namespace WpfContact.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon IconaApp {
+            get {
+                object obj = ResourceManager.GetObject("IconaApp", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap IconAdd24 {
@@ -83,9 +93,19 @@ namespace WpfContact.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IconFavoriti24 {
+        internal static System.Drawing.Bitmap IconDel24 {
             get {
-                object obj = ResourceManager.GetObject("IconFavoriti24", resourceCulture);
+                object obj = ResourceManager.GetObject("IconDel24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IconFav24 {
+            get {
+                object obj = ResourceManager.GetObject("IconFav24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
