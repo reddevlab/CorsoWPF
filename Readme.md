@@ -7,3 +7,6 @@ https://youtu.be/bmw68zxjwG4
 ## Lezione 2 - Main Window & Styles
 https://youtu.be/OzUtFU40Lr0
 
+## Lezione 3 - AppViewModel & Utilities
+https://youtu.be/CQYvjlDoJ08
+

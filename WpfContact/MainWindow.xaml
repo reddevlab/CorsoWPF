@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:WpfContact"
         mc:Ignorable="d"
         Title="Contact Book Tesy" Height="600" Width="1000">
+    <Window.DataContext>
+        <local:AppViewModel />
+    </Window.DataContext>
     <DockPanel>
         <!--Toolbar-->
         <Grid DockPanel.Dock="Top" Height="40" Background="{StaticResource BluTesy}">
@@ -42,7 +45,7 @@
         </Grid>
         <!--Content-->
         <Grid DockPanel.Dock="Bottom">
-            <ContentControl Content="" />
+            <ContentControl Content="{Binding CurrentView}" />
 
         </Grid>
         

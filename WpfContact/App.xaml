@@ -2,6 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfContact"
+             xmlns:vm="clr-namespace:WpfContact.ViewModels"
+             xmlns:v="clr-namespace:WpfContact.Views"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <!-- Colori -->
@@ -31,6 +33,11 @@
             <Setter Property="Padding" Value="5" />
             <Setter Property="BorderThickness" Value="0" />
         </Style>
+
+        <DataTemplate DataType="{x:Type vm:BookViewModel}">
+            <v:BookView />
+
+        </DataTemplate>
 
 
     </Application.Resources>
