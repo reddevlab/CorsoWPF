@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WpfContact.Services;
 using WpfContact.Utility;
 using WpfContact.ViewModels;
 
@@ -29,7 +30,11 @@ namespace WpfContact
 
         public AppViewModel()
         {
-            BookVM = new BookViewModel();
+            //Quando arriveranno i dati reali basterà sostituire il service che li carica in questo punto
+
+            var dataService = new MockDataService();
+
+            BookVM = new BookViewModel(dataService);
             CurrentView = BookVM;
         }
 
