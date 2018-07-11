@@ -10,3 +10,6 @@ https://youtu.be/OzUtFU40Lr0
 ## Lezione 3 - AppViewModel & Utilities
 https://youtu.be/CQYvjlDoJ08
 
+## Lezione 4 - View Models
+https://youtu.be/2LmxxyLvPmo
+
