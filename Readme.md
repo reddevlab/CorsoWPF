@@ -16,4 +16,8 @@ https://youtu.be/2LmxxyLvPmo
 ## Lezione 5 - Data Services
 https://youtu.be/y17XFyOJb-c
 
+## Lezione 6 - Item UserControl
+https://youtu.be/iZMY4rHoaig
+
+
 

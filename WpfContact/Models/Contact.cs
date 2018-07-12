@@ -9,7 +9,7 @@ namespace WpfContact.Models
 {
     public class Contact : ObservableObject
     {
-        public string Nome { get; set; }
+        public string Nickname { get; set; }
         public string Cognome { get; set; }
         public int Interno { get; set; }
 

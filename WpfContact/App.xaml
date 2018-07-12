@@ -38,8 +38,10 @@
         <!--DataTemplate per le visualizzazioni nei forms-->
         <DataTemplate DataType="{x:Type vm:BookViewModel}">
             <v:BookView />
-
         </DataTemplate>
+
+        <BitmapImage x:Key="DefaultContactPng" UriSource="pack://siteoforigin:,,,/Resources/IconApp64.png" />
+
 
 
     </Application.Resources>

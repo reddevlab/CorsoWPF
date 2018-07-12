@@ -13,37 +13,34 @@ namespace WpfContact.Services
 
         public MockDataService()
         {
-            m_contacts = new List<Contact>();
+            m_contacts = new List<Contact>()
             {
                 new Contact
                 {
-                    Nome = "Red",
+                    Nickname = "Red",
                     Interno = 342,
                     Emails = new string[]
                     {
-                        "roberto.carrer@tesysoftware.com",
-                        "roberto.carrer@me.com"
+                        "r.cc@tssoftware.com",
+                        "r.cc@me.com"
                     },
 
 
-                };
+                },
 
                 new Contact
                 {
-                    Nome = "Franco",
+                    Nickname = "Franco",
                     Interno = 357,
                     Emails = new string[]
                     {
-                        "franco.martini@tesysoftware.com",
-                        "franco.martini@me.com"
+                        "f.mm@tssoftware.com",
+                        "f.mm@me.com"
                     },
 
 
-                };
-
-
-            }
-
+                },
+            };
 
         }
 
