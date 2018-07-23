@@ -27,7 +27,7 @@
             <ScrollViewer>
                 <ContentControl>
                     <ContentControl.Content>
-                        <v:DetailsView DataContext="{Binding ContactVM}" />
+                        <v:DetailsView DataContext="{Binding ContactsVM}" />
                     </ContentControl.Content>
                 </ContentControl>
             </ScrollViewer>
