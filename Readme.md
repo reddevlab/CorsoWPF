@@ -19,5 +19,10 @@ https://youtu.be/y17XFyOJb-c
 ## Lezione 6 - Item UserControl
 https://youtu.be/iZMY4rHoaig
 
+## Lezione 7 - Prepariamo la detail view
+https://youtu.be/5PROZgENNd4
 
 
+NEXT...
+## Lezione 8 - Edit and save button
+https://youtu.be/KK_-pR2GBmg

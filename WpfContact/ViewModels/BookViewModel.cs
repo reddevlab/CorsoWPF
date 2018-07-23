@@ -27,7 +27,7 @@ namespace WpfContact.ViewModels
         public BookViewModel(IContactDataService service)
         {
             m_service = service;
-            ContactsVM = new ContactsViewModel();
+            ContactsVM = new ContactsViewModel(m_service);
 
             LoadContatsCommand = new RelayCommand(LoadContacts);
             LoadFavoriteCommand = new RelayCommand(LoadFavorites);

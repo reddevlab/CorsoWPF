@@ -12,6 +12,8 @@
         <SolidColorBrush x:Key="ArancioTesy2" Color="#d35400" />
         <SolidColorBrush x:Key="GrigioTesy" Color="#808080" />
         <SolidColorBrush x:Key="GrigioTestoTesy" Color="#ECF0F1" />
+        <SolidColorBrush x:Key="BlueGrey" Color="#431533" />
+        <SolidColorBrush x:Key="AlmostBlack" Color="DarkGray" />
 
         <LinearGradientBrush x:Key="SfondoTesyGradient" EndPoint="0,1">
             <GradientStop Color="#808080" Offset="0.0" />
@@ -34,7 +36,26 @@
             <Setter Property="BorderThickness" Value="0" />
         </Style>
 
-        
+        <!--Stile per i bordi-->
+        <Style x:Key="DetailLabel" TargetType="Label">
+            <Setter Property="Foreground" Value="{StaticResource BlueGrey}"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="1"/>
+        </Style>
+
+        <Style x:Key="ContentLabel" TargetType="Label">
+            <Setter Property="Foreground" Value="{StaticResource AlmostBlack}"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <Style x:Key="DetailBorder" TargetType="Border">
+            <Setter Property="CornerRadius" Value="3"/>
+            <Setter Property="Background" Value="{StaticResource SfondoTesyGradient}"/>
+        </Style>
+
+
         <!--DataTemplate per le visualizzazioni nei forms-->
         <DataTemplate DataType="{x:Type vm:BookViewModel}">
             <v:BookView />

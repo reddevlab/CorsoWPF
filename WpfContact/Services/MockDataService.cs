@@ -24,8 +24,6 @@ namespace WpfContact.Services
                         "r.cc@tssoftware.com",
                         "r.cc@me.com"
                     },
-
-
                 },
 
                 new Contact
@@ -37,8 +35,6 @@ namespace WpfContact.Services
                         "f.mm@tssoftware.com",
                         "f.mm@me.com"
                     },
-
-
                 },
             };
 

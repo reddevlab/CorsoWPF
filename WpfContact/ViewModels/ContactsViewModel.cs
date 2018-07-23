@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WpfContact.Models;
+using WpfContact.Services;
 using WpfContact.Utility;
 
 namespace WpfContact.ViewModels
@@ -20,8 +21,11 @@ namespace WpfContact.ViewModels
 
         public ObservableCollection<Contact> Contatcs { get; private set; }
 
-        public ContactsViewModel()
+        private IContactDataService _dataService;
+
+        public ContactsViewModel(IContactDataService dataService)
         {
+            _dataService = dataService;
 
         }
 

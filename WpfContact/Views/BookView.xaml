@@ -24,6 +24,13 @@
         </Grid>
 
         <Grid Grid.Column="1">
+            <ScrollViewer>
+                <ContentControl>
+                    <ContentControl.Content>
+                        <v:DetailsView DataContext="{Binding ContactVM}" />
+                    </ContentControl.Content>
+                </ContentControl>
+            </ScrollViewer>
             
         </Grid>
 
